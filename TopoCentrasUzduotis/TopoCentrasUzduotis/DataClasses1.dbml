@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TopoCentrasDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TopoCentrasDB.mdf;Integrated Security=True" SettingsObjectName="TopoCentrasUzduotis.Properties.Settings" SettingsPropertyName="TopoCentrasDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Klientai" Member="Klientais">
+    <Type Name="Klientai">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Pavadinimas" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Klientai_Uzsakymai" Member="Uzsakymais" ThisKey="Id" OtherKey="Uzsakovas" Type="Uzsakymai" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Uzsakymai" Member="Uzsakymais">
+    <Type Name="Uzsakymai">
+      <Column Name="UzsakymoId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Uzsakovas" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Uzsakymai_PirkiniuSarasa" Member="PirkiniuSarasas" ThisKey="UzsakymoId" OtherKey="Uzsakymas" Type="PirkiniuSarasa" />
+      <Association Name="Klientai_Uzsakymai" Member="Klientai" ThisKey="Uzsakovas" OtherKey="Id" Type="Klientai" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PirkiniuSarasas" Member="PirkiniuSarasas">
+    <Type Name="PirkiniuSarasa">
+      <Column Name="Uzsakymas" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Preke" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Uzsakymai_PirkiniuSarasa" Member="Uzsakymai" ThisKey="Uzsakymas" OtherKey="UzsakymoId" Type="Uzsakymai" IsForeignKey="true" />
+      <Association Name="Prekes_PirkiniuSarasa" Member="Prekes" ThisKey="Preke" OtherKey="Id" Type="Prekes" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Prekes" Member="Prekes">
+    <Type Name="Prekes">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Pavadinimass" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Kaina" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Association Name="Prekes_PirkiniuSarasa" Member="PirkiniuSarasas" ThisKey="Id" OtherKey="Preke" Type="PirkiniuSarasa" />
+    </Type>
+  </Table>
+</Database>

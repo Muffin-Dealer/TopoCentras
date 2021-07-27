@@ -1,0 +1,13 @@
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\bin\Debug\TopoCentrasDB.mdf
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\bin\Debug\TopoCentrasDB_log.ldf
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\bin\Debug\TopoCentrasUzduotis.exe.config
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\bin\Debug\TopoCentrasUzduotis.exe
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\bin\Debug\TopoCentrasUzduotis.pdb
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.csprojAssemblyReference.cache
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.Properties.Resources.resources
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.csproj.GenerateResource.cache
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.csproj.CoreCompileInputs.cache
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.exe
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.pdb
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.Uzsakymas.resources
+D:\VS2017 bandymai\TopoCentras\TopoCentrasUzduotis\TopoCentrasUzduotis\obj\Debug\TopoCentrasUzduotis.Pagrindinis.resources

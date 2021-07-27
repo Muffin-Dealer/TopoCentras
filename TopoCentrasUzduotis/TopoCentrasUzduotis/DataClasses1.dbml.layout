@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="cbd85808-c0f4-493b-b760-ae53600c2420" absoluteBounds="0.625, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataClasses1DataContext/Klientai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="721419c2-9f04-4d4e-afbf-e47ddfc3694f" absoluteBounds="0.64000000000000012, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1cf03215-13eb-4f99-9d38-5ce6c3106284" absoluteBounds="3.5, 3.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataClasses1DataContext/Uzsakymai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f08769c6-eac6-47e9-b6e8-06e77bcdf495" absoluteBounds="3.5150000000000006, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.625 : 2.19399251302083); (1.625 : 4.47199625651042); (3.5 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Klientai/Klientai_Uzsakymai" />
+      <nodes>
+        <classShapeMoniker Id="cbd85808-c0f4-493b-b760-ae53600c2420" />
+        <classShapeMoniker Id="1cf03215-13eb-4f99-9d38-5ce6c3106284" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a8bf2675-b761-478c-92dc-577911d792d9" absoluteBounds="5.625, 1.375, 1.75, 1.1939925130208333">
+      <DataClassMoniker Name="/DataClasses1DataContext/PirkiniuSarasa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afb366c0-34eb-45b4-b534-a8a73fed8cc4" absoluteBounds="5.64, 1.835, 1.7200000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 4.47199625651042); (6.78125 : 4.47199625651042); (6.78125 : 2.56899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Uzsakymai/Uzsakymai_PirkiniuSarasa" />
+      <nodes>
+        <classShapeMoniker Id="1cf03215-13eb-4f99-9d38-5ce6c3106284" />
+        <classShapeMoniker Id="a8bf2675-b761-478c-92dc-577911d792d9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="18df78fb-8527-43cf-ab64-0f5c86aae06f" absoluteBounds="3.25, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/Prekes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68f3f995-81ab-4ddc-8ead-8cb403780da2" absoluteBounds="3.2649999999999997, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 1.75564697265625); (5.625 : 1.75564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Prekes/Prekes_PirkiniuSarasa" />
+      <nodes>
+        <classShapeMoniker Id="18df78fb-8527-43cf-ab64-0f5c86aae06f" />
+        <classShapeMoniker Id="a8bf2675-b761-478c-92dc-577911d792d9" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
