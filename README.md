@@ -7,8 +7,10 @@ Kiekvienam tabe galima atlikti paiešką įvedus reikalinga informacija ir paspa
 Taip pat kiekviename tabe paspaudus mygtuką Atnaujinti bus atstatytas tabas
 
 Užsakymai tabas:
-  paspaudus mygtuką ištrinti užsakymą bus ištrintas užsakymas
+paspaudus mygtuką ištrinti užsakymą bus ištrintas užsakymas
+
   paspaudus mygtuką pridėti užsakymą arba peržiurėti užsakymą atsidarys užsakymo rukimo bei redagavimo langas
+  
   Atidarytame lange :
 
     galima pridėti pasirinkta prekę paspaudus mygtuką pridėti
